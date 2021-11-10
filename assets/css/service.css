@@ -1,0 +1,17 @@
+@media (max-width: 576px){
+	.header .header__navbar.show--navbar{
+		display: block;
+	}
+	.header__contact ul li{
+		font-size: 1rem;
+		margin:0 2px;
+	}
+}
+@media (max-width: 991px) and (min-width: 577px){
+	.header .header__contact.show--contact{
+		display: block;
+	}
+}
+.off_service.doctor_service{
+	padding : 15px 0!important;
+}

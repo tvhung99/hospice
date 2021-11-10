@@ -1,0 +1,62 @@
+@import url('./base.css');
+
+.info__list{
+	padding: 0;
+	list-style: none;
+}
+.info__item{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	margin-top: 1rem;
+}
+.info__icon{
+	width: 10%;
+	text-align: center;
+	font-size: 1.8rem;
+	color: var(--theme-color);
+	margin-right: 1rem;
+}
+
+.info__main h5{
+	font-size: 1.6rem;
+	padding: .4rem 0;
+
+}
+.info__main p{
+	font-size: 1.2rem;
+	opacity: .7;
+}
+
+
+.info__col{
+	display:flex ;
+	flex-direction: column;
+	margin-top: 1rem;
+}
+.right-col{
+	margin-top: 2rem;
+	text-align: right;
+}
+.info__col input{
+	padding: 1rem 2rem;
+	margin-top: 1rem;
+	border:1px solid rgba(220, 220, 220, .8);
+	outline: none;
+	font-size: 1.4rem;
+}
+textarea{
+	width: 100%;
+	font-size: 1.4rem;
+	outline: none;
+	border-color:rgba(220, 220, 220, .8)
+}
+.send_btn{
+	outline: none;
+	border:none;
+	padding: 1rem 2rem;
+	margin:2rem 0;
+	background: var(--theme-color);
+	color: white;
+	font-size: 1.4rem;
+}
